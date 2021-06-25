@@ -29,4 +29,3 @@ alert("A maior altura é: "+maa);
 alert("A menor altura é: "+mea);
 alert("A média de altura das mulheres é: "+mm);
 alert("O número de homens é: "+qh);
-
