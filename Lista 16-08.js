@@ -1,5 +1,10 @@
 /*
-Site de referência: https://www.guj.com.br/t/exercicios-com-javascript/323892
+
+Website de referência: https://www.guj.com.br/t/exercicios-com-javascript/323892
+
+*/
+
+/*
 1.
 Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas.
 Faça um programa que calcule e escreva:
