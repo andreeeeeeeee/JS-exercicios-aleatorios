@@ -1,4 +1,5 @@
 /*
+Site de referência: https://www.guj.com.br/t/exercicios-com-javascript/323892
 1.
 Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas.
 Faça um programa que calcule e escreva:
@@ -28,4 +29,4 @@ alert("A maior altura é: "+maa);
 alert("A menor altura é: "+mea);
 alert("A média de altura das mulheres é: "+mm);
 alert("O número de homens é: "+qh);
-https://www.guj.com.br/t/exercicios-com-javascript/323892
+
