@@ -4,20 +4,6 @@ Indique se um aluno passou ou rodou. Para isso leia suas notas e sua frequência
 */
 
 var bts=prompt("Em sua escola, a avaliação é feita em bimestres, trimestres ou semestres?");
-var pf1=prompt("Em sua escola, a frequência pode interferir no resultado final do ano?");
-if (bts=="bimestres" && pf=="sim") {
-	var pf2=Number(prompt("De quanta frequência você precisa para passar?"));
-	var pn=Number(prompt("De quanta nota você precisa para passar?"));
-	var n1=Number(prompt("Digite a sua primeira nota:"));
-	var n2=Number(prompt("Digite a sua segunda nota:"));
-	var n3=Number(prompt("Digite a sua terceira nota:"));
-	var n4=Number(prompt("Digite a sua quarta nota:"));
-	var f=Number(prompt("Digite sua frequência:"));/*
-1.
-Indique se um aluno passou ou rodou. Para isso leia suas notas e sua frequência.
-*/
-
-var bts=prompt("Em sua escola, a avaliação é feita em bimestres, trimestres ou semestres?");
 var pf=prompt("Em sua escola, a frequência pode interferir no resultado final do ano?");
 if (bts=="bimestres" && pf=="sim") {
 	var pf2=Number(prompt("De quanta frequência você precisa para passar?"));
