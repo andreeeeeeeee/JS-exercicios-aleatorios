@@ -3,16 +3,16 @@
 Indique se um aluno passou ou rodou. Para isso leia suas notas e sua frequência.
 */
 
-var bts=prompt("Em sua escola, a avaliação é feita em bimestres, trimestres ou semestres?");
-var pf=prompt("Em sua escola, a frequência pode interferir no resultado final do ano?");
-var pn=Number(prompt("De quanta nota você precisa para passar?"));
-var pf2 = 0, pf = 0, n3, n4, mf;
+let bts=prompt("Em sua escola, a avaliação é feita em bimestres, trimestres ou semestres?");
+let pf=prompt("Em sua escola, a frequência pode interferir no resultado final do ano?");
+let pf2 = 0, pf = 0, n3, n4, mf;
 if (pf == "sim") {
-	pf2=Number(prompt("De quanta frequência você precisa para passar?"));
+	pf2=Number(prompt("Qual a frequência necessária para passar?"));
 	f=Number(prompt("Digite sua frequência:"));
 }
-var n1=Number(prompt("Digite a sua primeira nota:"));
-var n2=Number(prompt("Digite a sua segunda nota:"));
+let pn=Number(prompt("Qual a média final necessária para passar?"));
+let n1=Number(prompt("Digite a sua primeira nota:"));
+let n2=Number(prompt("Digite a sua segunda nota:"));
 if (bts!="semestres") {
 	n3=Number(prompt("Digite a sua terceira nota:"));
 } if (bts=="bimestres") {
